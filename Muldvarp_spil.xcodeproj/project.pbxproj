@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14CEB32A1C0E45D60087932D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CEB3291C0E45D60087932D /* AppDelegate.swift */; };
+		14CEB32C1C0E45D60087932D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CEB32B1C0E45D60087932D /* ViewController.swift */; };
+		14CEB32F1C0E45D60087932D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CEB32D1C0E45D60087932D /* Main.storyboard */; };
+		14CEB3311C0E45D60087932D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CEB3301C0E45D60087932D /* Assets.xcassets */; };
+		14CEB3341C0E45D60087932D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CEB3321C0E45D60087932D /* LaunchScreen.storyboard */; };
+		14CEB33F1C0E45D60087932D /* Muldvarp_spilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CEB33E1C0E45D60087932D /* Muldvarp_spilTests.swift */; };
+		14CEB34A1C0E45D60087932D /* Muldvarp_spilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CEB3491C0E45D60087932D /* Muldvarp_spilUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14CEB33B1C0E45D60087932D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CEB31E1C0E45D50087932D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14CEB3251C0E45D50087932D;
+			remoteInfo = Muldvarp_spil;
+		};
+		14CEB3461C0E45D60087932D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CEB31E1C0E45D50087932D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14CEB3251C0E45D50087932D;
+			remoteInfo = Muldvarp_spil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14CEB3261C0E45D60087932D /* Muldvarp_spil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muldvarp_spil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CEB3291C0E45D60087932D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14CEB32B1C0E45D60087932D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14CEB32E1C0E45D60087932D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14CEB3301C0E45D60087932D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14CEB3331C0E45D60087932D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14CEB3351C0E45D60087932D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CEB33A1C0E45D60087932D /* Muldvarp_spilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Muldvarp_spilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CEB33E1C0E45D60087932D /* Muldvarp_spilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muldvarp_spilTests.swift; sourceTree = "<group>"; };
+		14CEB3401C0E45D60087932D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CEB3451C0E45D60087932D /* Muldvarp_spilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Muldvarp_spilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CEB3491C0E45D60087932D /* Muldvarp_spilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muldvarp_spilUITests.swift; sourceTree = "<group>"; };
+		14CEB34B1C0E45D60087932D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14CEB3231C0E45D50087932D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CEB3371C0E45D60087932D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CEB3421C0E45D60087932D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14CEB31D1C0E45D50087932D = {
+			isa = PBXGroup;
+			children = (
+				14CEB3281C0E45D60087932D /* Muldvarp_spil */,
+				14CEB33D1C0E45D60087932D /* Muldvarp_spilTests */,
+				14CEB3481C0E45D60087932D /* Muldvarp_spilUITests */,
+				14CEB3271C0E45D60087932D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14CEB3271C0E45D60087932D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CEB3261C0E45D60087932D /* Muldvarp_spil.app */,
+				14CEB33A1C0E45D60087932D /* Muldvarp_spilTests.xctest */,
+				14CEB3451C0E45D60087932D /* Muldvarp_spilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CEB3281C0E45D60087932D /* Muldvarp_spil */ = {
+			isa = PBXGroup;
+			children = (
+				14CEB3291C0E45D60087932D /* AppDelegate.swift */,
+				14CEB32B1C0E45D60087932D /* ViewController.swift */,
+				14CEB32D1C0E45D60087932D /* Main.storyboard */,
+				14CEB3301C0E45D60087932D /* Assets.xcassets */,
+				14CEB3321C0E45D60087932D /* LaunchScreen.storyboard */,
+				14CEB3351C0E45D60087932D /* Info.plist */,
+			);
+			path = Muldvarp_spil;
+			sourceTree = "<group>";
+		};
+		14CEB33D1C0E45D60087932D /* Muldvarp_spilTests */ = {
+			isa = PBXGroup;
+			children = (
+				14CEB33E1C0E45D60087932D /* Muldvarp_spilTests.swift */,
+				14CEB3401C0E45D60087932D /* Info.plist */,
+			);
+			path = Muldvarp_spilTests;
+			sourceTree = "<group>";
+		};
+		14CEB3481C0E45D60087932D /* Muldvarp_spilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14CEB3491C0E45D60087932D /* Muldvarp_spilUITests.swift */,
+				14CEB34B1C0E45D60087932D /* Info.plist */,
+			);
+			path = Muldvarp_spilUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14CEB3251C0E45D50087932D /* Muldvarp_spil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CEB34E1C0E45D60087932D /* Build configuration list for PBXNativeTarget "Muldvarp_spil" */;
+			buildPhases = (
+				14CEB3221C0E45D50087932D /* Sources */,
+				14CEB3231C0E45D50087932D /* Frameworks */,
+				14CEB3241C0E45D50087932D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Muldvarp_spil;
+			productName = Muldvarp_spil;
+			productReference = 14CEB3261C0E45D60087932D /* Muldvarp_spil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14CEB3391C0E45D60087932D /* Muldvarp_spilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CEB3511C0E45D60087932D /* Build configuration list for PBXNativeTarget "Muldvarp_spilTests" */;
+			buildPhases = (
+				14CEB3361C0E45D60087932D /* Sources */,
+				14CEB3371C0E45D60087932D /* Frameworks */,
+				14CEB3381C0E45D60087932D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14CEB33C1C0E45D60087932D /* PBXTargetDependency */,
+			);
+			name = Muldvarp_spilTests;
+			productName = Muldvarp_spilTests;
+			productReference = 14CEB33A1C0E45D60087932D /* Muldvarp_spilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14CEB3441C0E45D60087932D /* Muldvarp_spilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CEB3541C0E45D60087932D /* Build configuration list for PBXNativeTarget "Muldvarp_spilUITests" */;
+			buildPhases = (
+				14CEB3411C0E45D60087932D /* Sources */,
+				14CEB3421C0E45D60087932D /* Frameworks */,
+				14CEB3431C0E45D60087932D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14CEB3471C0E45D60087932D /* PBXTargetDependency */,
+			);
+			name = Muldvarp_spilUITests;
+			productName = Muldvarp_spilUITests;
+			productReference = 14CEB3451C0E45D60087932D /* Muldvarp_spilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14CEB31E1C0E45D50087932D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "linoj ravindran";
+				TargetAttributes = {
+					14CEB3251C0E45D50087932D = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 479XBR5YB5;
+					};
+					14CEB3391C0E45D60087932D = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 479XBR5YB5;
+						TestTargetID = 14CEB3251C0E45D50087932D;
+					};
+					14CEB3441C0E45D60087932D = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 479XBR5YB5;
+						TestTargetID = 14CEB3251C0E45D50087932D;
+					};
+				};
+			};
+			buildConfigurationList = 14CEB3211C0E45D50087932D /* Build configuration list for PBXProject "Muldvarp_spil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14CEB31D1C0E45D50087932D;
+			productRefGroup = 14CEB3271C0E45D60087932D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14CEB3251C0E45D50087932D /* Muldvarp_spil */,
+				14CEB3391C0E45D60087932D /* Muldvarp_spilTests */,
+				14CEB3441C0E45D60087932D /* Muldvarp_spilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14CEB3241C0E45D50087932D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CEB3341C0E45D60087932D /* LaunchScreen.storyboard in Resources */,
+				14CEB3311C0E45D60087932D /* Assets.xcassets in Resources */,
+				14CEB32F1C0E45D60087932D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CEB3381C0E45D60087932D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CEB3431C0E45D60087932D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14CEB3221C0E45D50087932D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CEB32C1C0E45D60087932D /* ViewController.swift in Sources */,
+				14CEB32A1C0E45D60087932D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CEB3361C0E45D60087932D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CEB33F1C0E45D60087932D /* Muldvarp_spilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CEB3411C0E45D60087932D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CEB34A1C0E45D60087932D /* Muldvarp_spilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14CEB33C1C0E45D60087932D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14CEB3251C0E45D50087932D /* Muldvarp_spil */;
+			targetProxy = 14CEB33B1C0E45D60087932D /* PBXContainerItemProxy */;
+		};
+		14CEB3471C0E45D60087932D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14CEB3251C0E45D50087932D /* Muldvarp_spil */;
+			targetProxy = 14CEB3461C0E45D60087932D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14CEB32D1C0E45D60087932D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CEB32E1C0E45D60087932D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14CEB3321C0E45D60087932D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CEB3331C0E45D60087932D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14CEB34C1C0E45D60087932D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14CEB34D1C0E45D60087932D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14CEB34F1C0E45D60087932D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Muldvarp_spil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hej.Muldvarp-spil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14CEB3501C0E45D60087932D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Muldvarp_spil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hej.Muldvarp-spil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14CEB3521C0E45D60087932D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Muldvarp_spilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hej.Muldvarp-spilTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muldvarp_spil.app/Muldvarp_spil";
+			};
+			name = Debug;
+		};
+		14CEB3531C0E45D60087932D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Muldvarp_spilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hej.Muldvarp-spilTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muldvarp_spil.app/Muldvarp_spil";
+			};
+			name = Release;
+		};
+		14CEB3551C0E45D60087932D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Muldvarp_spilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hej.Muldvarp-spilUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Muldvarp_spil;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		14CEB3561C0E45D60087932D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Muldvarp_spilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hej.Muldvarp-spilUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Muldvarp_spil;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14CEB3211C0E45D50087932D /* Build configuration list for PBXProject "Muldvarp_spil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CEB34C1C0E45D60087932D /* Debug */,
+				14CEB34D1C0E45D60087932D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CEB34E1C0E45D60087932D /* Build configuration list for PBXNativeTarget "Muldvarp_spil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CEB34F1C0E45D60087932D /* Debug */,
+				14CEB3501C0E45D60087932D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14CEB3511C0E45D60087932D /* Build configuration list for PBXNativeTarget "Muldvarp_spilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CEB3521C0E45D60087932D /* Debug */,
+				14CEB3531C0E45D60087932D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14CEB3541C0E45D60087932D /* Build configuration list for PBXNativeTarget "Muldvarp_spilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CEB3551C0E45D60087932D /* Debug */,
+				14CEB3561C0E45D60087932D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14CEB31E1C0E45D50087932D /* Project object */;
+}
