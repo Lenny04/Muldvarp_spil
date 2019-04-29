@@ -9,12 +9,8 @@
 import UIKit
 let saveGame = UserDefaults.standard
 class ViewController2: UIViewController {
-    var highScore2 = ""
-    var antalRigtige = 0
-    var highscore = 0
-    var highscoreNavn = ""
-    var newNumber = 0
-    var oldNumber = 0
+    var highScore2 = "", highscoreNavn = ""
+    var antalRigtige = 0, highscore = 0, newNumber = 0, oldNumber = 0
     let img : UIImage = UIImage(named: "Muldvarp")!
     let img2 : UIImage = UIImage(named: "stop")!
     @IBOutlet weak var Button1: UIButton!
@@ -175,9 +171,6 @@ class ViewController2: UIViewController {
                     saveGame.set(highscore, forKey: "Score")
                     saveGame.set(highscoreNavn, forKey: "Name")
                 }
-                //let antalrigtige = String (antalRigtigeInt)
-                //highScore = "\(navn): \(antalrigtige) point"
-                //highScore = navn + "  " + String (antalRigtigeInt)
             Tid.invalidate()
             let alertController2 = UIAlertController(title: "Game over!", message: "", preferredStyle: .alert)
             let imageAction2 = UIAlertAction(title: "", style: .default, handler: nil)
@@ -186,7 +179,6 @@ class ViewController2: UIViewController {
             let left2 = -alertController2.view.frame.size.width / 2 + image2.size.width + alertViewPadding2
             let centeredTopoImage2 = image2.withAlignmentRectInsets(UIEdgeInsetsMake(0, left2, 0, 0)).withRenderingMode(.alwaysOriginal)
             imageAction2.setValue(centeredTopoImage2, forKey: "image")
-            //let defaultAction = UIAlertAction(title: "Prøv igen!", style: .default, handler: nil)
             alertController2.addAction(imageAction2)
             alertController2.addAction(UIAlertAction(title: "Prøv igen!", style: .default, handler: { _ in
                 self.clearAll()

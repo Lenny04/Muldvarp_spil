@@ -42,7 +42,6 @@ class navnViewcontroller: UIViewController {
         if (segue.identifier == "segueSpilForHighscore") {
             if let destinationVC = segue.destination as? ViewController2{
                 destinationVC.highscoreNavn = navn
-                //var viewController = segue.destination as! TredjeViewController
                 
             }
         }

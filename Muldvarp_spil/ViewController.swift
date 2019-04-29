@@ -8,10 +8,8 @@
 
 import UIKit
 class ViewController: UIViewController {
-    var antalRigtigeInt = 0
     var highscoreNavn = ""
-    var newNumber = 0
-    var oldNumber = 0
+    var newNumber = 0, oldNumber = 0, antalRigtigeInt = 0
     let img : UIImage = UIImage(named: "Muldvarp")!
     let img2 : UIImage = UIImage(named: "stop")!
     @IBOutlet weak var Button1: UIButton!

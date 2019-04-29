@@ -33,8 +33,6 @@ class velkomstViewcontroller: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "segueTilHighscore") {
             if let destinationVC = segue.destination as? highscoreViewcontroller{
-                //var viewController = segue.destination as! TredjeViewController
-                //currentIndex = (listTableView.indexPathForSelectedRow?.row)!
             }
         }
     }
